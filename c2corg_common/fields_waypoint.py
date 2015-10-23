@@ -17,6 +17,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'summit': {
@@ -38,6 +43,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'pass': {
@@ -55,6 +65,11 @@ fields_waypoint = {
             'locales.title',
             'geometry',
             'geometry.geom',
+            'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
             'elevation'
         ]
     },
@@ -76,6 +91,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'bisse': {
@@ -93,6 +113,11 @@ fields_waypoint = {
             'locales.title',
             'geometry',
             'geometry.geom',
+            'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
             'elevation'
         ]
     },
@@ -113,6 +138,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'cave': {
@@ -131,6 +161,11 @@ fields_waypoint = {
             'locales.title',
             'geometry',
             'geometry.geom',
+            'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
             'elevation'
         ]
     },
@@ -151,6 +186,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'locality': {
@@ -169,6 +209,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'confluence': {
@@ -186,6 +231,11 @@ fields_waypoint = {
             'locales.title',
             'geometry',
             'geometry.geom',
+            'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
             'elevation'
         ]
     },
@@ -206,6 +256,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'randkluft': {
@@ -225,6 +280,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'source': {
@@ -242,6 +302,11 @@ fields_waypoint = {
             'locales.title',
             'geometry',
             'geometry.geom',
+            'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
             'elevation'
         ]
     },
@@ -264,6 +329,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'divers': {
@@ -282,6 +352,11 @@ fields_waypoint = {
             'locales.title',
             'geometry',
             'geometry.geom',
+            'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
             'elevation'
         ]
     },
@@ -321,6 +396,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'climbing_indoor': {
@@ -357,6 +437,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'gite': {
@@ -383,6 +468,11 @@ fields_waypoint = {
             'geometry.geom',
             'elevation',
             'custodianship'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'camp_site': {
@@ -410,6 +500,11 @@ fields_waypoint = {
             'geometry.geom',
             'elevation',
             'custodianship'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'hut': {
@@ -440,6 +535,11 @@ fields_waypoint = {
             'geometry.geom',
             'elevation',
             'custodianship'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'shelter': {
@@ -466,6 +566,11 @@ fields_waypoint = {
             'geometry.geom',
             'elevation',
             'custodianship'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'bivouac': {
@@ -489,6 +594,11 @@ fields_waypoint = {
             'geometry.geom',
             'elevation',
             'custodianship'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'base_camp': {
@@ -515,6 +625,11 @@ fields_waypoint = {
             'geometry.geom',
             'elevation',
             'custodianship'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'access': {
@@ -542,6 +657,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'local_product': {
@@ -565,6 +685,11 @@ fields_waypoint = {
             'geometry.geom',
             'elevation',
             'product_types'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'sport_shop': {
@@ -585,6 +710,11 @@ fields_waypoint = {
             'locales.title',
             'geometry',
             'geometry.geom',
+            'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
             'elevation'
         ]
     },
@@ -612,6 +742,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'paragliding_landing': {
@@ -638,6 +773,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'weather_station': {
@@ -656,6 +796,11 @@ fields_waypoint = {
             'geometry',
             'geometry.geom',
             'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
+            'elevation'
         ]
     },
     'webcam': {
@@ -672,6 +817,11 @@ fields_waypoint = {
             'locales.title',
             'geometry',
             'geometry.geom',
+            'elevation'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.summary',
             'elevation'
         ]
     }
