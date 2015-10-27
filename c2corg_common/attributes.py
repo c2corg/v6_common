@@ -52,8 +52,26 @@ waypoint_types = [
     'webcam',               # webcam
 ]
 
+route_types = [
+    'ski',                  # ski
+    'alpi',                 # alpi neige glace mixte
+    'alpi_rock',            # rocher haute montagne
+    'climbing_multi',       # escalade: type de voie = grande voie ou [vide]
+    'climbing_single',      # escalade: type de voie = couenne
+    'climbing_bloc',        # escalade: type de voie = bloc
+    'climbing_psicobloc',   # escalade: type de voie = psychobloc
+    'ice_climbing',         # cascade de glace
+    'hiking',               # rando pedestre
+    'snowshoes',            # raquette
+    'mtb',                  # VTT
+    'via_ferrata',          # via ferrata
+    'dry_tool_multi',       # dry tooling: type de voie = grande voie
+    'dry_tool_single'       # dry tooling: type de voie = couenne
+]
+
 climbing_outdoor_types = [
-    'couenne',
+    'single',
+    'multi',
     'bloc',
     'psicobloc'
 ]
@@ -269,4 +287,222 @@ equipment_ratings = [
     'P3+',
     'P4',
     'P4+'
+]
+
+route_forms = [
+    'return_same_way',  # aller-retour (descente en rappel dans la voie)
+    'loop_other',       # boucle avec retour au pied de la voie (descente en
+                        # rappel dans une autre voie)
+    'loop_hut',         # boucle avec retour au refuge
+    'traverse',         # traversee
+    'raid',             # raid
+    'expedition'        # expe
+]
+
+route_duration_types = [
+    '1',
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '10',
+    '10+'
+]
+
+glacier_gear_types = [
+    'no',
+    'glacier',          # materiel de securite sur glacier
+    'crampons_spring',  # crampons en debut de saison
+    'crampons_req',     # crampons indispensable
+    'glacier_crampons'  # crampons + materiel de securite sur glacier
+]
+
+route_configuration_types = [
+    'edge',
+    'pillar',
+    'face',
+    'corridor',
+    'goulotte',
+    'glacier'
+]
+
+ski_ratings = [
+    '1.1',
+    '1.2',
+    '1.3',
+    '2.1',
+    '2.2',
+    '2.3',
+    '3.1',
+    '3.2',
+    '3.3',
+    '4.1',
+    '4.2',
+    '4.3',
+    '5.1',
+    '5.2',
+    '5.3',
+    '5.4',
+    '5.5',
+    '5.6'
+]
+
+labande_ski_ratings = [
+    'S1',
+    'S2',
+    'S3',
+    'S4',
+    'S5',
+    'S6',
+    'S7'
+]
+
+global_ratings = [
+    'F',
+    'F+',
+    'PD-',
+    'PD',
+    'PD+',
+    'AD-',
+    'AD',
+    'AD+',
+    'D-',
+    'D',
+    'D+',
+    'TD-',
+    'TD',
+    'TD+',
+    'ED-',
+    'ED',
+    'ED+',
+    'ED4',
+    'ED5',
+    'ED6',
+    'ED7'
+]
+
+engagement_ratings = [
+    'I',
+    'II',
+    'III',
+    'IV',
+    'V',
+    'VI'
+]
+
+risk_ratings = [
+    'X1',
+    'X2',
+    'X3',
+    'X4',
+    'X5'
+]
+
+ice_ratings = [
+    '1',
+    '2',
+    '3',
+    '3+',
+    '4',
+    '4+',
+    '5',
+    '5+',
+    '6',
+    '6+',
+    '7',
+    '7+'
+]
+
+mixed_ratings = [
+    'M1',
+    'M2',
+    'M3',
+    'M3+',
+    'M4',
+    'M4+',
+    'M5',
+    'M5+',
+    'M6',
+    'M6+',
+    'M7',
+    'M7+',
+    'M8',
+    'M8+',
+    'M9',
+    'M9+',
+    'M10',
+    'M10+',
+    'M11',
+    'M11+',
+    'M12',
+    'M12+'
+]
+
+exposition_rock_ratings = [
+    'E1',
+    'E2',
+    'E3',
+    'E4',
+    'E5',
+    'E6'
+]
+
+aid_ratings = [
+    'A0',
+    'A0+',
+    'A1',
+    'A1+',
+    'A2',
+    'A2+',
+    'A3',
+    'A3+',
+    'A4',
+    'A4+',
+    'A5',
+    'A5+'
+]
+
+via_ferrata_ratings = [
+    'K1',
+    'K2',
+    'K3',
+    'K4',
+    'K5',
+    'K6'
+]
+
+hiking_ratings = [
+    'T1',
+    'T2',
+    'T3',
+    'T4',
+    'T5'
+]
+
+snowshoe_ratings = [
+    'R1',
+    'R2',
+    'R3',
+    'R4',
+    'R5'
+]
+
+mtb_up_ratings = [
+    'M1',
+    'M2',
+    'M3',
+    'M4',
+    'M5'
+]
+
+mtb_down_ratings = [
+    'V1',
+    'V2',
+    'V3',
+    'V4',
+    'V5'
 ]

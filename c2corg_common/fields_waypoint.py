@@ -8,8 +8,7 @@ fields_waypoint = {
             'geometry.geom_detail',
             'elevation',
             'activities',
-            'maps_info',
-            'activities'
+            'maps_info'
         ],
         'required': [
             'locales',
