@@ -25,10 +25,10 @@ waypoint_types = [
     'locality',             # lieu-dit (v5: vallon)
     'confluence',           # confluent
     'glacier',              # glacier
-    'randkluft',            # rimaye
+    'bergschrund',          # rimaye
     'source',               # source
     'cliff',                # falaise
-    'divers',               # divers
+    'misc',                 # divers
 
     'climbing_outdoor',     # site de couenne/bloc
     'climbing_indoor',      # S.A.E.

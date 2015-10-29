@@ -262,7 +262,7 @@ fields_waypoint = {
             'elevation'
         ]
     },
-    'randkluft': {
+    'bergschrund': {
         'fields': [
             'locales.title',
             'locales.summary',
@@ -335,7 +335,7 @@ fields_waypoint = {
             'elevation'
         ]
     },
-    'divers': {
+    'misc': {
         'fields': [
             'locales.title',
             'locales.summary',
