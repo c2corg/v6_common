@@ -1,5 +1,5 @@
 fields_route = {
-    'ski': {
+    'skitouring': {
         'fields': [
             'locales.title',
             'locales.summary',
@@ -19,7 +19,7 @@ fields_route = {
             'route_length',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'glacier_gear',
@@ -48,7 +48,7 @@ fields_route = {
             'elevation_max'
         ]
     },
-    'alpi': {
+    'snow_ice_mixed': {
         'fields': [
             'locales.title',
             'locales.summary',
@@ -69,7 +69,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'glacier_gear',
@@ -101,7 +101,7 @@ fields_route = {
             'elevation_max'
         ]
     },
-    'alpi_rock': {
+    'mountain_climbing': {
         'fields': [
             'locales.title',
             'locales.summary',
@@ -121,7 +121,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'glacier_gear',
@@ -174,7 +174,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'glacier_gear',
@@ -228,7 +228,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'lift_access',
@@ -280,7 +280,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'lift_access',
@@ -332,7 +332,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'lift_access',
@@ -385,7 +385,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'glacier_gear',
@@ -435,7 +435,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'glacier_gear',
@@ -462,7 +462,7 @@ fields_route = {
             'elevation_max'
         ]
     },
-    'snowshoes': {
+    'snowshoeing': {
         'fields': [
             'locales.title',
             'locales.summary',
@@ -483,7 +483,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'glacier_gear',
@@ -530,7 +530,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'lift_access',
@@ -580,7 +580,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'glacier_gear',
@@ -628,7 +628,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'glacier_gear',
@@ -678,7 +678,7 @@ fields_route = {
             'difficulties_height',
             'height_diff_access',
             'height_diff_difficulties',
-            'route_forms',
+            'route_type',
             'orientation',
             'duration',
             'lift_access',

@@ -1,16 +1,21 @@
 default_cultures = ['ca', 'de', 'en', 'es', 'eu', 'fr', 'it']
 
 activities = [
-    'skitouring',
-    'snow_ice_mixed',
-    'mountain_climbing',
-    'rock_climbing',
-    'ice_climbing',
-    'hiking',
-    'snowshoeing',
-    'paragliding',
-    'mountain_biking',
-    'via_ferrata'
+    'skitouring',           # ski
+    'snow_ice_mixed',       # alpi neige glace mixte
+    'mountain_climbing',    # rocher haute montagne
+    'climbing_multi',       # escalade: type de voie = grande voie ou [vide]
+    'climbing_single',      # escalade: type de voie = couenne
+    'climbing_bloc',        # escalade: type de voie = bloc
+    'climbing_psicobloc',   # escalade: type de voie = psychobloc
+    'ice_climbing',         # cascade de glace
+    'hiking',               # rando pedestre
+    'snowshoeing',          # raquette
+    'paragliding',          # parapente
+    'mtb',                  # VTT
+    'via_ferrata',          # via ferrata
+    'dry_tool_multi',       # dry tooling: type de voie = grande voie
+    'dry_tool_single'       # dry tooling: type de voie = couenne
 ]
 
 waypoint_types = [
@@ -50,23 +55,6 @@ waypoint_types = [
 
     'weather_station',      # station meteo
     'webcam',               # webcam
-]
-
-route_types = [
-    'ski',                  # ski
-    'alpi',                 # alpi neige glace mixte
-    'alpi_rock',            # rocher haute montagne
-    'climbing_multi',       # escalade: type de voie = grande voie ou [vide]
-    'climbing_single',      # escalade: type de voie = couenne
-    'climbing_bloc',        # escalade: type de voie = bloc
-    'climbing_psicobloc',   # escalade: type de voie = psychobloc
-    'ice_climbing',         # cascade de glace
-    'hiking',               # rando pedestre
-    'snowshoes',            # raquette
-    'mtb',                  # VTT
-    'via_ferrata',          # via ferrata
-    'dry_tool_multi',       # dry tooling: type de voie = grande voie
-    'dry_tool_single'       # dry tooling: type de voie = couenne
 ]
 
 climbing_outdoor_types = [
@@ -289,7 +277,7 @@ equipment_ratings = [
     'P4+'
 ]
 
-route_forms = [
+route_types = [
     'return_same_way',  # aller-retour (descente en rappel dans la voie)
     'loop_other',       # boucle avec retour au pied de la voie (descente en
                         # rappel dans une autre voie)
