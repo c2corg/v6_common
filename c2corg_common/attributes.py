@@ -1,21 +1,16 @@
 default_cultures = ['fr', 'it', 'de', 'en', 'es', 'ca', 'eu']
 
 activities = [
-    'skitouring',           # ski
-    'snow_ice_mixed',       # alpi neige glace mixte
-    'mountain_climbing',    # rocher haute montagne
-    'climbing_multi',       # escalade: type de voie = grande voie ou [vide]
-    'climbing_single',      # escalade: type de voie = couenne
-    'climbing_bloc',        # escalade: type de voie = bloc
-    'climbing_psicobloc',   # escalade: type de voie = psychobloc
-    'ice_climbing',         # cascade de glace
-    'hiking',               # rando pedestre
-    'snowshoeing',          # raquette
-    'paragliding',          # parapente
-    'mtb',                  # VTT
-    'via_ferrata',          # via ferrata
-    'dry_tool_multi',       # dry tooling: type de voie = grande voie
-    'dry_tool_single'       # dry tooling: type de voie = couenne
+    'skitouring',
+    'snow_ice_mixed',
+    'mountain_climbing',
+    'rock_climbing',
+    'ice_climbing',
+    'hiking',
+    'snowshoeing',
+    'paragliding',
+    'moutain_biking',
+    'via_ferrata'
 ]
 
 waypoint_types = [
