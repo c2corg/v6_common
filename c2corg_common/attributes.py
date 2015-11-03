@@ -1,4 +1,4 @@
-default_cultures = ['ca', 'de', 'en', 'es', 'eu', 'fr', 'it']
+default_cultures = ['fr', 'it', 'de', 'en', 'es', 'ca', 'eu']
 
 activities = [
     'skitouring',           # ski
