@@ -241,8 +241,11 @@ climbing_ratings = [
     '4b',
     '4c',
     '5a',
+    '5a+',
     '5b',
+    '5b+',
     '5c',
+    '5c+',
     '6a',
     '6a+',
     '6b',
@@ -263,7 +266,10 @@ climbing_ratings = [
     '8c+',
     '9a',
     '9a+',
-    '9b'
+    '9b',
+    '9b+',
+    '9c',
+    '9c+'
 ]
 
 equipment_ratings = [
