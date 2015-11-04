@@ -1,374 +1,56 @@
+# Common attributes settings used by most waypoint types
+DEFAULT_FIELDS = [
+    'locales.title',
+    'locales.summary',
+    'locales.description',
+    'geometry.geom',
+    'elevation',
+    'maps_info'
+]
+DEFAULT_REQUIRED = [
+    'locales',
+    'locales.title',
+    'geometry',
+    'geometry.geom',
+    'elevation'
+]
+DEFAULT_LISTING = [
+    'locales.title',
+    'locales.summary',
+    'elevation'
+]
+DEFAULT_ATTRIBUTES_SETTINGS = {
+    'fields': DEFAULT_FIELDS,
+    'required': DEFAULT_REQUIRED,
+    'listing': DEFAULT_LISTING
+}
+
 fields_waypoint = {
-    'virtuel': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
-            'activities',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
+    'virtual': DEFAULT_ATTRIBUTES_SETTINGS,
     'summit': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
-            'prominence',
-            'activities',
-            'rock_types',
-            'maps_info'
+        'fields': DEFAULT_FIELDS + [
+            'prominence'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'required': DEFAULT_REQUIRED,
+        'listing': DEFAULT_LISTING
     },
-    'pass': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
-            'activities',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'lake': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
-            'length',
-            'activities',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'bisse': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
-            'activities',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'waterfall': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
-            'activities',
-            'rock_types',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'cave': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
-            'activities',
-            'rock_types',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'pit': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
-            'activities',
-            'rock_types',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'locality': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
-            'activities',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'confluence': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
-            'activities',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'glacier': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
-            'activities',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'bergschrund': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
-            'activities',
-            'maps_info',
-            'access_time'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'source': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
-            'activities',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'cliff': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
-            'activities',
-            'rock_types',
-            'maps_info',
-            'access_time'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'misc': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
-            'activities',
-            'maps_info'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
+    'pass': DEFAULT_ATTRIBUTES_SETTINGS,
+    'lake': DEFAULT_ATTRIBUTES_SETTINGS,
+    'bisse': DEFAULT_ATTRIBUTES_SETTINGS,
+    'waterfall': DEFAULT_ATTRIBUTES_SETTINGS,
+    'cave': DEFAULT_ATTRIBUTES_SETTINGS,
+    'pit': DEFAULT_ATTRIBUTES_SETTINGS,
+    'locality': DEFAULT_ATTRIBUTES_SETTINGS,
+    'confluence': DEFAULT_ATTRIBUTES_SETTINGS,
+    'glacier': DEFAULT_ATTRIBUTES_SETTINGS,
+    'bergschrund': DEFAULT_ATTRIBUTES_SETTINGS,
+    'waterpoint': DEFAULT_ATTRIBUTES_SETTINGS,
+    'cliff': DEFAULT_ATTRIBUTES_SETTINGS,
+    'misc': DEFAULT_ATTRIBUTES_SETTINGS,
     'climbing_outdoor': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
+        'fields': DEFAULT_FIELDS + [
             'locales.access',
             'locales.access_period',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
             'height_max',
             'height_min',
             'height_median',
@@ -376,12 +58,10 @@ fields_waypoint = {
             'climbing_outdoor_types',
             'rain_proof',
             'children_proof',
-            'activities',
             'rock_types',
             'orientation',
             'best_periods',
             'url',
-            'maps_info',
             'climbing_styles',
             'access_time',
             'climbing_rating_max',
@@ -389,41 +69,22 @@ fields_waypoint = {
             'climbing_rating_median',
             'equipment_ratings'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'required': DEFAULT_REQUIRED,
+        'listing': DEFAULT_LISTING
     },
     'climbing_indoor': {
-        'fields': [
+        'fields': DEFAULT_FIELDS + [
             'locales.title',
             'locales.summary',
             'locales.description',
             'locales.access',
-            'locales.access_period',
             'geometry.geom',
-            'elevation',
             'height_max',
             'height_min',
             'height_median',
             'routes_quantity',
-            'climbing_outdoor_types',
-            'rain_proof',
-            'children_proof',
-            'activities',
-            'rock_types',
-            'orientation',
-            'best_periods',
+            'climbing_indoor_types',
             'url',
-            'maps_info',
             'phone',
             'climbing_styles',
             'climbing_rating_max',
@@ -434,91 +95,49 @@ fields_waypoint = {
             'locales',
             'locales.title',
             'geometry',
-            'geometry.geom',
-            'elevation'
+            'geometry.geom'
         ],
         'listing': [
             'locales.title',
-            'locales.summary',
-            'elevation'
+            'locales.summary'
         ]
     },
     'gite': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
+        'fields': DEFAULT_FIELDS + [
             'locales.access_period',
-            'geometry.geom',
-            'elevation',
             'capacity',
             'capacity_staffed',
-            'activities',
             'url',
-            'maps_info',
             'phone',
             'phone_custodian',
             'custodianship'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation',
+        'required': DEFAULT_REQUIRED + [
             'custodianship'
         ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'listing': DEFAULT_LISTING
     },
     'camp_site': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
+        'fields': DEFAULT_FIELDS + [
             'locales.access_period',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
             'capacity',
             'capacity_staffed',
-            'activities',
             'url',
-            'maps_info',
             'phone',
             'phone_custodian',
             'custodianship'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation',
+        'required': DEFAULT_REQUIRED + [
             'custodianship'
         ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'listing': DEFAULT_LISTING
     },
     'hut': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
+        'fields': DEFAULT_FIELDS + [
             'locales.access_period',
-            'geometry.geom',
-            'elevation',
             'capacity',
             'capacity_staffed',
-            'activities',
             'url',
-            'maps_info',
             'phone',
             'phone_custodian',
             'custodianship',
@@ -527,275 +146,103 @@ fields_waypoint = {
             'gas_unstaffed',
             'heating_unstaffed',
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation',
+        'required': DEFAULT_REQUIRED + [
             'custodianship'
         ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'listing': DEFAULT_LISTING
     },
     'shelter': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'locales.access_period',
-            'geometry.geom',
-            'elevation',
+        'fields': DEFAULT_FIELDS + [
             'capacity',
-            'activities',
-            'maps_info',
-            'custodianship',
             'matress_unstaffed',
             'blanket_unstaffed',
             'gas_unstaffed',
-            'heating_unstaffed',
+            'heating_unstaffed'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation',
-            'custodianship'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'required': DEFAULT_REQUIRED,
+        'listing': DEFAULT_LISTING
     },
     'bivouac': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'locales.access_period',
-            'geometry.geom',
-            'elevation',
+        'fields': DEFAULT_FIELDS + [
             'capacity',
-            'activities',
-            'maps_info',
-            'custodianship',
-            'matress_unstaffed'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation',
-            'custodianship'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'required': DEFAULT_REQUIRED,
+        'listing': DEFAULT_LISTING
     },
     'base_camp': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'locales.access_period',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
-            'capacity',
-            'activities',
-            'url',
-            'maps_info',
-            'toilet',
-            'custodianship',
-            'matress_unstaffed'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation',
-            'custodianship'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'fields': DEFAULT_FIELDS,
+        'required': DEFAULT_REQUIRED,
+        'listing': DEFAULT_LISTING
     },
     'access': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
+        'fields': DEFAULT_FIELDS + [
             'locales.access',
             'locales.access_period',
-            'geometry.geom',
-            'elevation',
             'elevation_min',
             'public_transportation_types',
             'public_transportation_rating',
             'snow_clearance_rating',
-            'activities',
-            'maps_info',
             'lift_access',
-            'toilet',
             'parking_fee'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'required': DEFAULT_REQUIRED,
+        'listing': DEFAULT_LISTING
     },
     'local_product': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
+        'fields': DEFAULT_FIELDS + [
             'locales.access',
             'locales.access_period',
-            'geometry.geom',
-            'elevation',
             'product_types',
-            'activities',
             'url',
             'phone'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation',
+        'required': DEFAULT_REQUIRED + [
             'product_types'
         ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'listing': DEFAULT_LISTING
     },
     'paragliding_takeoff': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
+        'fields': DEFAULT_FIELDS + [
             'length',
             'slope',
             'ground_types',
             'paragliding_rating',
             'exposition_rating',
-            'activities',
-            'orientation',
-            'best_periods',
-            'url',
+            'orientation'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'required': DEFAULT_REQUIRED,
+        'listing': DEFAULT_LISTING
     },
     'paragliding_landing': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'elevation',
+        'fields': DEFAULT_FIELDS + [
             'length',
             'slope',
             'ground_types',
             'paragliding_rating',
             'exposition_rating',
             'activities',
-            'orientation',
-            'best_periods',
-            'url'
+            'orientation'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'required': DEFAULT_REQUIRED,
+        'listing': DEFAULT_LISTING
     },
     'weather_station': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
+        'fields': DEFAULT_FIELDS + [
             'weather_station_types',
             'url'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
-    'webcam': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'geometry.geom',
-            'elevation',
+        'required': DEFAULT_REQUIRED + [
             'url'
         ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
+        'listing': DEFAULT_LISTING
+    },
+    'webcam': {
+        'fields': DEFAULT_FIELDS + [
+            'url'
         ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
+        'required': DEFAULT_REQUIRED + [
+            'url'
+        ],
+        'listing': DEFAULT_LISTING
     }
 }

@@ -33,14 +33,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -86,14 +79,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -140,14 +126,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -155,7 +134,7 @@ fields_route = {
             'elevation_max'
         ]
     },
-    'climbing_multi': {
+    'rock_climbing': {
         'fields': [
             'locales.title',
             'locales.summary',
@@ -194,170 +173,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation_max'
-        ]
-    },
-    'climbing_single': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'locales.remarks',
-            'locales.gear',
-            'locales.external_resources',
-            'locales.route_history',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'difficulties_height',
-            'height_diff_access',
-            'height_diff_difficulties',
-            'route_types',
-            'orientation',
-            'duration',
-            'lift_access',
-            'global_rating',
-            'engagement_rating',
-            'risk_rating',
-            'equipment_rating',
-            'exposition_rock_rating',
-            'rock_free_rating',
-            'rock_required_rating',
-            'aid_rating',
-            'rock_types',
-            'climbing_outdoor_types'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation_max'
-        ]
-    },
-    'climbing_bloc': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'locales.remarks',
-            'locales.gear',
-            'locales.external_resources',
-            'locales.route_history',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'difficulties_height',
-            'height_diff_access',
-            'height_diff_difficulties',
-            'route_types',
-            'orientation',
-            'duration',
-            'lift_access',
-            'global_rating',
-            'engagement_rating',
-            'risk_rating',
-            'equipment_rating',
-            'exposition_rock_rating',
-            'rock_free_rating',
-            'rock_required_rating',
-            'aid_rating',
-            'rock_types',
-            'climbing_outdoor_types'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation_max'
-        ]
-    },
-    'climbing_psicobloc': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'locales.remarks',
-            'locales.gear',
-            'locales.external_resources',
-            'locales.route_history',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'difficulties_height',
-            'height_diff_access',
-            'height_diff_difficulties',
-            'route_types',
-            'orientation',
-            'duration',
-            'lift_access',
-            'global_rating',
-            'engagement_rating',
-            'risk_rating',
-            'equipment_rating',
-            'exposition_rock_rating',
-            'rock_free_rating',
-            'rock_required_rating',
-            'aid_rating',
-            'rock_types',
-            'climbing_outdoor_types'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -400,14 +216,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -438,7 +247,6 @@ fields_route = {
             'route_types',
             'orientation',
             'duration',
-            'glacier_gear',
             'lift_access',
             'hiking_rating',
             'hiking_mtb_exposition'
@@ -447,14 +255,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -495,14 +296,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -510,7 +304,7 @@ fields_route = {
             'elevation_max'
         ]
     },
-    'mtb': {
+    'moutain_biking': {
         'fields': [
             'locales.title',
             'locales.summary',
@@ -540,19 +334,11 @@ fields_route = {
             'mtb_length_asphalt',
             'mtb_length_trail',
             'mtb_height_diff_portages'
-
         ],
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -583,7 +369,6 @@ fields_route = {
             'route_types',
             'orientation',
             'duration',
-            'glacier_gear',
             'configuration',
             'lift_access',
             'engagement_rating',
@@ -594,113 +379,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation_max'
-        ]
-    },
-    'dry_tool_multi': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'locales.remarks',
-            'locales.gear',
-            'locales.external_resources',
-            'locales.route_history',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'difficulties_height',
-            'height_diff_access',
-            'height_diff_difficulties',
-            'route_types',
-            'orientation',
-            'duration',
-            'glacier_gear',
-            'lift_access',
-            'global_rating',
-            'engagement_rating',
-            'risk_rating',
-            'equipment_rating',
-            'exposition_rock_rating',
-            'rock_types',
-            'climbing_outdoor_types'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation_max'
-        ]
-    },
-    'dry_tool_single': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'locales.remarks',
-            'locales.gear',
-            'locales.external_resources',
-            'locales.route_history',
-            'geometry.geom',
-            'geometry.geom_detail',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'difficulties_height',
-            'height_diff_access',
-            'height_diff_difficulties',
-            'route_types',
-            'orientation',
-            'duration',
-            'lift_access',
-            'global_rating',
-            'engagement_rating',
-            'risk_rating',
-            'equipment_rating',
-            'exposition_rock_rating',
-            'rock_types',
-            'climbing_outdoor_types'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
