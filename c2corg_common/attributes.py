@@ -14,21 +14,20 @@ activities = [
 ]
 
 waypoint_types = [
-    'virtuel',              # sur-WP virtuel
     'summit',               # sommet
     'pass',                 # col
     'lake',                 # lac
     'bisse',                # bisse
     'waterfall',            # cascade
+    'cliff',                # falaise
     'cave',                 # grotte
     'pit',                  # gouffre
     'locality',             # lieu-dit (v5: vallon)
     'confluence',           # confluent
     'glacier',              # glacier
     'bergschrund',          # rimaye
-    'source',               # source
-    'cliff',                # falaise
-    'misc',                 # divers
+
+    'waterpoint',           # point d'eau/source
 
     'climbing_outdoor',     # site de couenne/bloc
     'climbing_indoor',      # S.A.E.
@@ -38,8 +37,8 @@ waypoint_types = [
     'hut',                  # refuge
     'shelter',              # abri
     'bivouac',              # bivouac
-
     'base_camp',            # camp de base
+
     'access',               # acces
 
     'local_product',        # produit locaux
@@ -49,6 +48,9 @@ waypoint_types = [
 
     'weather_station',      # station meteo
     'webcam',               # webcam
+
+    'virtual',              # sur-WP virtuel
+    'misc'                  # divers
 ]
 
 climbing_outdoor_types = [

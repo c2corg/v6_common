@@ -1,5 +1,5 @@
 fields_waypoint = {
-    'virtuel': {
+    'virtual': {
         'fields': [
             'locales.title',
             'locales.summary',
@@ -286,7 +286,7 @@ fields_waypoint = {
             'elevation'
         ]
     },
-    'source': {
+    'waterpoint': {
         'fields': [
             'locales.title',
             'locales.summary',
