@@ -691,32 +691,6 @@ fields_waypoint = {
             'elevation'
         ]
     },
-    'sport_shop': {
-        'fields': [
-            'locales.title',
-            'locales.summary',
-            'locales.description',
-            'locales.access',
-            'locales.access_period',
-            'geometry.geom',
-            'elevation',
-            'activities',
-            'url',
-            'phone'
-        ],
-        'required': [
-            'locales',
-            'locales.title',
-            'geometry',
-            'geometry.geom',
-            'elevation'
-        ],
-        'listing': [
-            'locales.title',
-            'locales.summary',
-            'elevation'
-        ]
-    },
     'paragliding_takeoff': {
         'fields': [
             'locales.title',

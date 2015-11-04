@@ -48,7 +48,6 @@ waypoint_types = [
     'access',               # acces
 
     'local_product',        # produit locaux
-    'sport_shop',           # magasin de sport
 
     'paragliding_takeoff',  # deco
     'paragliding_landing',  # attero
@@ -81,7 +80,8 @@ product_types = [
     'farm_sale',  # vente chez le producteur
     'restaurant',
     'grocery',
-    'bar'
+    'bar',
+    'sport_shop'
 ]
 
 ground_types = [
