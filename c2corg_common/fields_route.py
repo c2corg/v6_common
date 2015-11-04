@@ -33,14 +33,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -86,14 +79,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -140,14 +126,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -194,14 +173,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -244,14 +216,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -282,7 +247,6 @@ fields_route = {
             'route_types',
             'orientation',
             'duration',
-            'glacier_gear',
             'lift_access',
             'hiking_rating',
             'hiking_mtb_exposition'
@@ -291,14 +255,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -339,14 +296,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -384,19 +334,11 @@ fields_route = {
             'mtb_length_asphalt',
             'mtb_length_trail',
             'mtb_height_diff_portages'
-
         ],
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
@@ -427,7 +369,6 @@ fields_route = {
             'route_types',
             'orientation',
             'duration',
-            'glacier_gear',
             'configuration',
             'lift_access',
             'engagement_rating',
@@ -438,14 +379,7 @@ fields_route = {
         'required': [
             'locales',
             'locales.title',
-            'geometry',
-            'geometry.geom',
-            'activities',
-            'elevation_min',
-            'elevation_max',
-            'height_diff_up',
-            'height_diff_down',
-            'duration'
+            'activities'
         ],
         'listing': [
             'locales.title',
