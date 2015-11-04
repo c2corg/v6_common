@@ -220,7 +220,6 @@ fields_waypoint = {
             'ground_types',
             'paragliding_rating',
             'exposition_rating',
-            'activities',
             'orientation'
         ],
         'required': DEFAULT_REQUIRED,
