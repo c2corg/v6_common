@@ -194,13 +194,6 @@ months = [
     'dec'
 ]
 
-custodianship_types = [
-    'yes_open',       # ferme hors gardiennage
-    'yes_closed',     # ouvert hors gardiennage
-    'key',            # cle a recuperer
-    'no'              # non gardienne
-]
-
 parking_fee_types = [
     'yes',
     'seasonal',
