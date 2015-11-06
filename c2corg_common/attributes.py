@@ -275,7 +275,7 @@ equipment_ratings = [
 
 route_types = [
     'return_same_way',  # aller-retour (descente en rappel dans la voie)
-    'loop_other',       # boucle avec retour au pied de la voie (descente en
+    'loop',             # boucle avec retour au pied de la voie (descente en
                         # rappel dans une autre voie)
     'loop_hut',         # boucle avec retour au refuge
     'traverse',         # traversee
