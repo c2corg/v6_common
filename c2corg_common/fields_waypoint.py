@@ -17,6 +17,7 @@ DEFAULT_REQUIRED = [
 DEFAULT_LISTING = [
     'locales.title',
     'locales.summary',
+    'geometry.geom',
     'elevation'
 ]
 DEFAULT_ATTRIBUTES_SETTINGS = {
