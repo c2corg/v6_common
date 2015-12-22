@@ -1,4 +1,5 @@
 default_cultures = ['fr', 'it', 'de', 'en', 'es', 'ca', 'eu']
+cultures_priority = ['fr', 'en', 'it', 'de', 'es', 'ca', 'eu']
 
 activities = [
     'skitouring',
