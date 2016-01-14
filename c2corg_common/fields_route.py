@@ -19,7 +19,8 @@ DEFAULT_FIELDS = [
     'lift_access',
     'route_types',
     'orientations',
-    'durations'
+    'durations',
+    'main_waypoint_id'
 ]
 DEFAULT_REQUIRED = [
     'locales',
