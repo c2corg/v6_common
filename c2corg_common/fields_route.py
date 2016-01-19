@@ -7,6 +7,7 @@ DEFAULT_FIELDS = [
     'locales.remarks',
     'locales.external_resources',
     'locales.route_history',
+    'locales.title_prefix',
     'geometry.geom',
     'geometry.geom_detail',
     'activities',
