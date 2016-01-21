@@ -491,3 +491,21 @@ mtb_down_ratings = [
     'V4',
     'V5'
 ]
+
+map_editors = [
+    'ign',
+    'swisstopo',
+    'escursionista'
+]
+
+map_scales = [
+    '25000',
+    '50000',
+    '100000'
+]
+
+area_types = [
+    'range',
+    'admin_limits',
+    'country'
+]
