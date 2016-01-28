@@ -30,6 +30,7 @@ DEFAULT_REQUIRED = [
 ]
 DEFAULT_LISTING = [
     'locales.title',
+    'locales.title_prefix',
     'locales.summary',
     'elevation_max'
 ]
