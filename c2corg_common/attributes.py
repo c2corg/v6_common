@@ -1,5 +1,5 @@
-default_cultures = ['fr', 'it', 'de', 'en', 'es', 'ca', 'eu']
-cultures_priority = ['fr', 'en', 'it', 'de', 'es', 'ca', 'eu']
+default_langs = ['fr', 'it', 'de', 'en', 'es', 'ca', 'eu']
+langs_priority = ['fr', 'en', 'it', 'de', 'es', 'ca', 'eu']
 
 activities = [
     'skitouring',
