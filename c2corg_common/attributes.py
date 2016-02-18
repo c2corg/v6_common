@@ -509,3 +509,65 @@ area_types = [
     'admin_limits',
     'country'
 ]
+
+area_types = [
+    'range',
+    'admin_limits',
+    'country'
+]
+
+frequentation_types = [
+    'quiet',
+    'some',
+    'crowded',
+    'overcrowded'
+]
+
+access_conditions = [
+    'cleared',
+    'snow',
+    'closed_snow',
+    'closed_cleared'
+]
+
+lift_status = [
+    'open',
+    'closed'
+]
+
+awesomeness = [
+    '*',
+    '**',
+    '***',
+    '****',
+    '*****'
+]
+
+condition_ratings = [
+    'excellent',
+    'good',
+    'average',
+    'poor',
+    'awful'
+]
+
+glacier_ratings = [
+    'easy',
+    'possible',
+    'difficult',
+    'impossible'
+]
+
+avalanche_signs = [
+    'no',
+    'danger_sign',
+    'recent_avalanche',
+    'natural_avalanche',
+    'accidental_avalanche'
+]
+
+hut_status = [
+    'open_guarded',
+    'open_non_guarded',
+    'closed'
+]
