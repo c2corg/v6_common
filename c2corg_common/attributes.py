@@ -510,12 +510,6 @@ area_types = [
     'country'
 ]
 
-area_types = [
-    'range',
-    'admin_limits',
-    'country'
-]
-
 frequentation_types = [
     'quiet',
     'some',
@@ -570,4 +564,30 @@ hut_status = [
     'open_guarded',
     'open_non_guarded',
     'closed'
+]
+
+image_categories = [
+    'landscapes',
+    'detail',
+    'action',
+    'track',
+    'rise',
+    'descent',
+    'topo',
+    'people',
+    'fauna',
+    'flora',
+    'snow',
+    'geology',
+    'hut',
+    'equipment',
+    'book',
+    'help',
+    'misc'
+]
+
+image_types = [
+    'collaborative',
+    'personal',
+    'copyright'
 ]
