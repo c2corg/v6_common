@@ -591,3 +591,10 @@ image_types = [
     'personal',
     'copyright'
 ]
+
+user_categories = [
+    'amateur',
+    'pro',
+    'club',
+    'institution'
+]
