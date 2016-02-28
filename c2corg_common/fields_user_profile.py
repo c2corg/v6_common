@@ -2,7 +2,7 @@ DEFAULT_FIELDS = [
     'locales.title',
     'geometry.geom',
     'activities',
-    'category'
+    'categories'
 ]
 
 DEFAULT_REQUIRED = [
@@ -10,7 +10,7 @@ DEFAULT_REQUIRED = [
 
 LISTING_FIELDS = [
     'locales.title',
-    'category',
+    'categories',
     'activities'
 ]
 
