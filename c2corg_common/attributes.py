@@ -594,13 +594,13 @@ image_types = [
 
 user_categories = [
     'amateur',
-    'mountain guide',
-    'mountain leader',
-    'ski instructor',
-    'climbing instructor',
-    'mountainbike instructor',
-    'paragliding instructor',
-    'hut warden',
+    'mountain_guide',
+    'mountain_leader',
+    'ski_instructor',
+    'climbing_instructor',
+    'mountainbike_instructor',
+    'paragliding_instructor',
+    'hut_warden',
     'club',
     'institution'
 ]
