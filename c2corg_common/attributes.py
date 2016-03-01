@@ -493,9 +493,9 @@ mtb_down_ratings = [
 ]
 
 map_editors = [
-    'ign',
-    'swisstopo',
-    'escursionista'
+    'IGN',
+    'Swisstopo',
+    'Escursionista'
 ]
 
 map_scales = [
