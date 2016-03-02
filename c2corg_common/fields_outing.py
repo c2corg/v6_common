@@ -42,7 +42,9 @@ DEFAULT_REQUIRED = [
 ]
 DEFAULT_LISTING = [
     'locales.title',
-    'locales.summary'
+    'locales.summary',
+    'date_start',
+    'date_end'
 ]
 DEFAULT_ATTRIBUTES_SETTINGS = {
     'fields': DEFAULT_FIELDS,
@@ -138,6 +140,12 @@ fields_outing = {
         'fields': DEFAULT_FIELDS + [
             'duration_difficulties',
             'glacier_rating',
+        ],
+        'required': DEFAULT_REQUIRED,
+        'listing': DEFAULT_LISTING
+    },
+    'paragliding': {
+        'fields': DEFAULT_FIELDS + [
         ],
         'required': DEFAULT_REQUIRED,
         'listing': DEFAULT_LISTING
