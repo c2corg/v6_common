@@ -1,6 +1,7 @@
-from c2corg_common.document_types import *
+from c2corg_common.document_types import ROUTE_TYPE, OUTING_TYPE, \
+    WAYPOINT_TYPE, USERPROFILE_TYPE, IMAGE_TYPE
 
-valid_associations = set([
+valid_associations = {
     # associations with outings
     (ROUTE_TYPE, OUTING_TYPE),
     (WAYPOINT_TYPE, OUTING_TYPE),
@@ -19,4 +20,4 @@ valid_associations = set([
     (OUTING_TYPE, IMAGE_TYPE),
     (ROUTE_TYPE, IMAGE_TYPE),
     (USERPROFILE_TYPE, IMAGE_TYPE),
-])
+}
