@@ -23,8 +23,6 @@ DEFAULT_FIELDS = [
 DEFAULT_REQUIRED = [
     'locales',
     'locales.title',
-    'geometry',
-    'geometry.geom',
     'image_type'
 ]
 
