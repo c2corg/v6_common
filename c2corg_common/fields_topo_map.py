@@ -1,6 +1,6 @@
 DEFAULT_FIELDS = [
     'locales.title',
-    'geometry.geom_detail',
+    'geometry.geom',
     'code',
     'scale',
     'editor'
@@ -10,7 +10,7 @@ DEFAULT_REQUIRED = [
     'locales',
     'locales.title',
     'geometry',
-    'geometry.geom_detail'
+    'geometry.geom'
 ]
 
 LISTING_FIELDS = [

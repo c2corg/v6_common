@@ -1,6 +1,6 @@
 DEFAULT_FIELDS = [
     'locales.title',
-    'geometry.geom_detail',
+    'geometry.geom',
     'area_type'
 ]
 
@@ -8,7 +8,7 @@ DEFAULT_REQUIRED = [
     'locales',
     'locales.title',
     'geometry',
-    'geometry.geom_detail',
+    'geometry.geom',
     'area_type'
 ]
 
