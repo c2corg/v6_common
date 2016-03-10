@@ -32,7 +32,8 @@ DEFAULT_LISTING = [
     'locales.title',
     'locales.title_prefix',
     'locales.summary',
-    'elevation_max'
+    'elevation_max',
+    'activities'
 ]
 DEFAULT_ATTRIBUTES_SETTINGS = {
     'fields': DEFAULT_FIELDS,
