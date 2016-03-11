@@ -130,7 +130,7 @@ fields_outing = {
         'required': DEFAULT_REQUIRED,
         'listing': DEFAULT_LISTING
     },
-    'moutain_biking': {
+    'mountain_biking': {
         'fields': DEFAULT_FIELDS + [
         ],
         'required': DEFAULT_REQUIRED,
