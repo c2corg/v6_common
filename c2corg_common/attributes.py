@@ -10,7 +10,7 @@ activities = [
     'hiking',
     'snowshoeing',
     'paragliding',
-    'moutain_biking',
+    'mountain_biking',
     'via_ferrata'
 ]
 
@@ -601,6 +601,8 @@ user_categories = [
     'mountainbike_instructor',
     'paragliding_instructor',
     'hut_warden',
+    'ski_patroller',
+    'avalanche_forecaster',
     'club',
     'institution'
 ]
