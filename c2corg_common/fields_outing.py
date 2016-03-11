@@ -43,6 +43,7 @@ DEFAULT_REQUIRED = [
 DEFAULT_LISTING = [
     'locales.title',
     'locales.summary',
+    'geometry.geom',
     'date_start',
     'date_end'
 ]

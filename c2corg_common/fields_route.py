@@ -32,6 +32,7 @@ DEFAULT_LISTING = [
     'locales.title',
     'locales.title_prefix',
     'locales.summary',
+    'geometry.geom',
     'elevation_max',
     'activities'
 ]
