@@ -9,7 +9,6 @@ DEFAULT_REQUIRED = [
 ]
 
 LISTING_FIELDS = [
-    'locales.title',
     'categories',
     'activities'
 ]

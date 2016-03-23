@@ -44,8 +44,11 @@ DEFAULT_LISTING = [
     'locales.title',
     'locales.summary',
     'geometry.geom',
+    'activities',
     'date_start',
-    'date_end'
+    'date_end',
+    'elevation_max',
+    'height_diff_up'
 ]
 DEFAULT_ATTRIBUTES_SETTINGS = {
     'fields': DEFAULT_FIELDS,
