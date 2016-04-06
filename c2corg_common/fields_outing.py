@@ -31,7 +31,8 @@ DEFAULT_FIELDS = [
     'awesomeness',
     'duration',
     'condition_rating',
-    'hut_status'
+    'hut_status',
+    'quality'
 ]
 DEFAULT_REQUIRED = [
     'locales',

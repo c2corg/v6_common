@@ -21,7 +21,8 @@ DEFAULT_FIELDS = [
     'route_types',
     'orientations',
     'durations',
-    'main_waypoint_id'
+    'main_waypoint_id',
+    'quality'
 ]
 DEFAULT_REQUIRED = [
     'locales',

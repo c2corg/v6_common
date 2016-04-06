@@ -17,7 +17,8 @@ DEFAULT_FIELDS = [
     'exposure_time',
     'focal_length',
     'fnumber',
-    'iso_speed'
+    'iso_speed',
+    'quality'
 ]
 
 DEFAULT_REQUIRED = [

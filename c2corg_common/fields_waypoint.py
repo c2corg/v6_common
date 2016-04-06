@@ -5,7 +5,8 @@ DEFAULT_FIELDS = [
     'locales.description',
     'geometry.geom',
     'elevation',
-    'maps_info'
+    'maps_info',
+    'quality'
 ]
 DEFAULT_REQUIRED = [
     'locales',
