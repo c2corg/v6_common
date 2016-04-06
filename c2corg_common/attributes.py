@@ -606,3 +606,11 @@ user_categories = [
     'club',
     'institution'
 ]
+
+quality_types = [
+    'stub',
+    'medium',
+    'correct',
+    'good',
+    'excellent'
+]
