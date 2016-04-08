@@ -18,34 +18,30 @@ waypoint_types = [
     'summit',               # sommet
     'pass',                 # col
     'lake',                 # lac
-    'bisse',                # bisse
     'waterfall',            # cascade
-    'cliff',                # falaise
-    'cave',                 # grotte
-    'pit',                  # gouffre
     'locality',             # lieu-dit (v5: vallon)
-    'confluence',           # confluent
-    'glacier',              # glacier
-    'bergschrund',          # rimaye
-
-    'waterpoint',           # point d'eau/source
-
-    'climbing_outdoor',     # site de couenne/bloc
-    'climbing_indoor',      # S.A.E.
-
-    'gite',                 # gite
-    'camp_site',            # camping
-    'hut',                  # refuge
-    'shelter',              # abri
-    'bivouac',              # bivouac
-    'base_camp',            # camp de base
+    'bisse',                # bisse
+    'canyon',               # canyon
 
     'access',               # acces
+
+    'climbing_outdoor',     # site d'escalade
+    'climbing_indoor',      # S.A.E.
+
+    'hut',                  # refuge
+    'gite',                 # gite
+    'shelter',              # abri
+    'bivouac',              # bivouac
+    'camp_site',            # camping
+    'base_camp',            # camp de base
 
     'local_product',        # produit locaux
 
     'paragliding_takeoff',  # deco
     'paragliding_landing',  # attero
+
+    'cave',                 # grotte
+    'waterpoint',           # point d'eau/source
 
     'weather_station',      # station meteo
     'webcam',               # webcam
