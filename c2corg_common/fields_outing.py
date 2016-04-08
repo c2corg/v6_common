@@ -39,8 +39,7 @@ DEFAULT_REQUIRED = [
     'locales.title',
     'activities',
     'date_start',
-    'date_end',
-    'quality'
+    'date_end'
 ]
 DEFAULT_LISTING = [
     'locales.title',

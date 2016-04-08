@@ -10,8 +10,7 @@ DEFAULT_REQUIRED = [
     'locales.title',
     'geometry',
     'geometry.geom_detail',
-    'area_type',
-    'quality'
+    'area_type'
 ]
 
 LISTING_FIELDS = [

@@ -24,8 +24,7 @@ DEFAULT_FIELDS = [
 DEFAULT_REQUIRED = [
     'locales',
     'locales.title',
-    'image_type',
-    'quality'
+    'image_type'
 ]
 
 LISTING_FIELDS = [
