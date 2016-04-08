@@ -41,13 +41,9 @@ fields_waypoint = {
     'bisse': DEFAULT_ATTRIBUTES_SETTINGS,
     'waterfall': DEFAULT_ATTRIBUTES_SETTINGS,
     'cave': DEFAULT_ATTRIBUTES_SETTINGS,
-    'pit': DEFAULT_ATTRIBUTES_SETTINGS,
     'locality': DEFAULT_ATTRIBUTES_SETTINGS,
-    'confluence': DEFAULT_ATTRIBUTES_SETTINGS,
-    'glacier': DEFAULT_ATTRIBUTES_SETTINGS,
-    'bergschrund': DEFAULT_ATTRIBUTES_SETTINGS,
     'waterpoint': DEFAULT_ATTRIBUTES_SETTINGS,
-    'cliff': DEFAULT_ATTRIBUTES_SETTINGS,
+    'canyon': DEFAULT_ATTRIBUTES_SETTINGS,
     'misc': DEFAULT_ATTRIBUTES_SETTINGS,
     'climbing_outdoor': {
         'fields': DEFAULT_FIELDS + [
