@@ -608,9 +608,9 @@ user_categories = [
 ]
 
 quality_types = [
+    'empty',
     'stub',
     'medium',
-    'correct',
     'good',
     'excellent'
 ]

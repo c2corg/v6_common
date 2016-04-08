@@ -27,7 +27,8 @@ DEFAULT_FIELDS = [
 DEFAULT_REQUIRED = [
     'locales',
     'locales.title',
-    'activities'
+    'activities',
+    'quality'
 ]
 DEFAULT_LISTING = [
     'locales.title',
