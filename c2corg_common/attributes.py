@@ -610,3 +610,10 @@ quality_types = [
     'good',
     'excellent'
 ]
+
+custodianship_types = [
+    'accessible when wardened',
+    'always accessible',
+    'key needed',
+    'no warden'
+]
