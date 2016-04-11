@@ -605,15 +605,15 @@ user_categories = [
 
 quality_types = [
     'empty',
-    'stub',
+    'draft',
     'medium',
     'good',
     'excellent'
 ]
 
 custodianship_types = [
-    'accessible when wardened',
-    'always accessible',
-    'key needed',
-    'no warden'
+    'accessible_when_wardened',
+    'always_accessible',
+    'key_needed',
+    'no_warden'
 ]
