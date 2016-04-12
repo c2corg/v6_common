@@ -108,7 +108,7 @@ fields_route = {
             'rock_required_rating',
             'aid_rating',
             'rock_types',
-            'climbing_outdoor_types'
+            'climbing_outdoor_type'
         ],
         'required': DEFAULT_REQUIRED,
         'listing': DEFAULT_LISTING
