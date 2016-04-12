@@ -57,7 +57,7 @@ fields_waypoint = {
             'rain_proof',
             'children_proof',
             'rock_types',
-            'orientation',
+            'orientations',
             'best_periods',
             'url',
             'climbing_styles',
@@ -206,7 +206,7 @@ fields_waypoint = {
             'ground_types',
             'paragliding_rating',
             'exposition_rating',
-            'orientation'
+            'orientations'
         ],
         'required': DEFAULT_REQUIRED,
         'listing': DEFAULT_LISTING
@@ -218,7 +218,7 @@ fields_waypoint = {
             'ground_types',
             'paragliding_rating',
             'exposition_rating',
-            'orientation'
+            'orientations'
         ],
         'required': DEFAULT_REQUIRED,
         'listing': DEFAULT_LISTING
