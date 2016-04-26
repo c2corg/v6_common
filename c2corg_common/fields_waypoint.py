@@ -97,7 +97,8 @@ fields_waypoint = {
         ],
         'listing': [
             'locales.title',
-            'locales.summary'
+            'locales.summary',
+            'geometry.geom'
         ]
     },
     'gite': {
