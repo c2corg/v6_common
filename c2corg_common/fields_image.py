@@ -29,7 +29,8 @@ DEFAULT_REQUIRED = [
 
 LISTING_FIELDS = [
     'locales.title',
-    'geometry.geom'
+    'geometry.geom',
+    'filename'
 ]
 
 fields_image = {
