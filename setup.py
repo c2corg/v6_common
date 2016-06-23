@@ -22,6 +22,6 @@ setup(name='c2corg_common',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      test_suite='c2corg_api',
+      test_suite='c2corg_common',
       install_requires=requires,
       )

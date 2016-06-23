@@ -6,6 +6,8 @@ help:
 	@echo
 	@echo "Main targets:"
 	@echo
+	@echo "- check			Run linter and tests"
+	@echo "- test			Run the tests"
 	@echo "- lint			Run flake8 checker on the Python code"
 	@echo "- clean			Remove generated files"
 	@echo "- cleanall		Remove all the build artefacts"
@@ -19,17 +21,27 @@ clean:
 cleanall: clean
 	rm -rf .build
 
+.PHONY: check
+check: lint test
+
 .PHONY: lint
 lint: .build/venv/bin/flake8
 	.build/venv/bin/flake8 c2corg_common
 
-.PHONY: install
-install: install-dev-egg
+.PHONY: test
+test: .build/venv/bin/nosetests .build/requirements.timestamp
+	.build/venv/bin/nosetests
 
-.PHONY: install-dev-egg
-install-dev-egg: $(SITE_PACKAGES)/c2corg_common.egg-link
+.PHONY: install
+install: .build/requirements.timestamp
+
+.build/requirements.timestamp: .build/venv requirements.txt
+	.build/venv/bin/pip install -r requirements.txt
+	touch $@
 
 .build/venv/bin/flake8: .build/dev-requirements.timestamp
+
+.build/venv/bin/nosetests: .build/dev-requirements.timestamp
 
 .build/dev-requirements.timestamp: .build/venv dev-requirements.txt
 	.build/venv/bin/pip install -r dev-requirements.txt
