@@ -28,7 +28,6 @@ DEFAULT_FIELDS = [
     'public_transport',
     'access_condition',
     'lift_status',
-    'awesomeness',
     'duration',
     'condition_rating',
     'hut_status',
