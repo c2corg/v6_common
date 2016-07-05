@@ -3,6 +3,7 @@ DEFAULT_FIELDS = [
     'locales.title',
     'locales.summary',
     'locales.description',
+    'locales.topic_id',
     'locales.participants',
     'locales.access_comment',
     'locales.weather',
