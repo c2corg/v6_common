@@ -19,7 +19,8 @@ DEFAULT_LISTING = [
     'locales.title',
     'locales.summary',
     'geometry.geom',
-    'elevation'
+    'elevation',
+    'quality'
 ]
 DEFAULT_ATTRIBUTES_SETTINGS = {
     'fields': DEFAULT_FIELDS,
