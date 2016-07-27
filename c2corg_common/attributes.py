@@ -117,8 +117,7 @@ paragliding_ratings = [
     '2',
     '3',
     '4',
-    '5',
-    '6'
+    '5'
 ]
 
 children_proof_types = [
@@ -523,14 +522,6 @@ access_conditions = [
 lift_status = [
     'open',
     'closed'
-]
-
-awesomeness = [
-    '*',
-    '**',
-    '***',
-    '****',
-    '*****'
 ]
 
 condition_ratings = [
