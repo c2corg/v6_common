@@ -162,7 +162,6 @@ fields_route = {
         'required': DEFAULT_REQUIRED,
         'listing': DEFAULT_LISTING + [
             'ice_rating',
-            'engagement_rating'
             'global_rating',
             'engagement_rating',
             'risk_rating',
