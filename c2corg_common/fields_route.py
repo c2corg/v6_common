@@ -35,7 +35,11 @@ DEFAULT_LISTING = [
     'locales.summary',
     'geometry.geom',
     'elevation_max',
-    'activities'
+    'height_diff_up',
+    'height_diff_difficulties',
+    'activities',
+    'quality',
+    'orientations'
 ]
 DEFAULT_ATTRIBUTES_SETTINGS = {
     'fields': DEFAULT_FIELDS,
@@ -56,7 +60,12 @@ fields_route = {
             'labande_global_rating'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'ski_rating',
+            'ski_exposition',
+            'labande_ski_rating',
+            'labande_global_rating'
+        ]
     },
     'snow_ice_mixed': {
         'fields': DEFAULT_FIELDS + [
@@ -74,7 +83,14 @@ fields_route = {
             'rock_types'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'global_rating',
+            'engagement_rating',
+            'risk_rating',
+            'equipment_rating',
+            'ice_rating',
+            'mixed_rating'
+        ]
     },
     'mountain_climbing': {
         'fields': DEFAULT_FIELDS + [
@@ -92,7 +108,16 @@ fields_route = {
             'rock_types'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'global_rating',
+            'engagement_rating',
+            'risk_rating',
+            'equipment_rating',
+            'exposition_rock_rating',
+            'rock_free_rating',
+            'rock_required_rating',
+            'aid_rating'
+        ]
     },
     'rock_climbing': {
         'fields': DEFAULT_FIELDS + [
@@ -111,7 +136,16 @@ fields_route = {
             'climbing_outdoor_type'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'global_rating',
+            'engagement_rating',
+            'risk_rating',
+            'equipment_rating',
+            'exposition_rock_rating',
+            'rock_free_rating',
+            'rock_required_rating',
+            'aid_rating'
+        ]
     },
     'ice_climbing': {
         'fields': DEFAULT_FIELDS + [
@@ -126,7 +160,15 @@ fields_route = {
             'mixed_rating'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'ice_rating',
+            'engagement_rating'
+            'global_rating',
+            'engagement_rating',
+            'risk_rating',
+            'equipment_rating',
+            'mixed_rating'
+        ]
     },
     'hiking': {
         'fields': DEFAULT_FIELDS + [
@@ -136,7 +178,10 @@ fields_route = {
             'hiking_mtb_exposition'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'hiking_rating',
+            'hiking_mtb_exposition'
+        ]
     },
     'snowshoeing': {
         'fields': DEFAULT_FIELDS + [
@@ -148,7 +193,9 @@ fields_route = {
             'snowshoe_rating'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'snowshoe_rating'
+        ]
     },
     'mountain_biking': {
         'fields': DEFAULT_FIELDS + [
@@ -162,7 +209,11 @@ fields_route = {
             'mtb_height_diff_portages'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'mtb_down_rating',
+            'mtb_up_rating',
+            'hiking_mtb_exposition'
+        ]
     },
     'via_ferrata': {
         'fields': DEFAULT_FIELDS + [
@@ -175,6 +226,10 @@ fields_route = {
             'rock_types'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'via_ferrata_rating',
+            'engagement_rating',
+            'equipment_rating'
+        ]
     }
 }

@@ -49,7 +49,8 @@ DEFAULT_LISTING = [
     'date_start',
     'date_end',
     'elevation_max',
-    'height_diff_up'
+    'height_diff_up',
+    'quality'
 ]
 DEFAULT_ATTRIBUTES_SETTINGS = {
     'fields': DEFAULT_FIELDS,
