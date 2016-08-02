@@ -540,7 +540,6 @@ glacier_ratings = [
 ]
 
 avalanche_signs = [
-    'no',
     'danger_sign',
     'recent_avalanche',
     'natural_avalanche',
