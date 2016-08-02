@@ -30,7 +30,17 @@ DEFAULT_REQUIRED = [
 LISTING_FIELDS = [
     'locales.title',
     'geometry.geom',
-    'filename'
+    'filename',
+    'activities',
+    'image_type',
+    'elevation',
+    'iso_speed',
+    'quality',
+    'camera_name',
+    'exposure_time',
+    'focal_length',
+    'categories',
+    'fnumber'
 ]
 
 fields_image = {
