@@ -61,6 +61,7 @@ fields_outing = {
     'skitouring': {
         'fields': DEFAULT_FIELDS + [
             'elevation_up_snow',
+            'elevation_down_snow',
             'snow_quantity',
             'snow_quality',
             'glacier_rating',
