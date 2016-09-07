@@ -1,5 +1,5 @@
 from c2corg_common.document_types import ROUTE_TYPE, OUTING_TYPE, \
-    WAYPOINT_TYPE, USERPROFILE_TYPE, IMAGE_TYPE
+    WAYPOINT_TYPE, USERPROFILE_TYPE, IMAGE_TYPE, ARTICLE_TYPE
 
 valid_associations = {
     # associations with outings
@@ -20,4 +20,12 @@ valid_associations = {
     (OUTING_TYPE, IMAGE_TYPE),
     (ROUTE_TYPE, IMAGE_TYPE),
     (USERPROFILE_TYPE, IMAGE_TYPE),
+
+    # associations with articles
+    (ARTICLE_TYPE, ARTICLE_TYPE),
+    (ARTICLE_TYPE, IMAGE_TYPE),
+    (WAYPOINT_TYPE, ARTICLE_TYPE),
+    (OUTING_TYPE, ARTICLE_TYPE),
+    (ROUTE_TYPE, ARTICLE_TYPE),
+    (USERPROFILE_TYPE, ARTICLE_TYPE),
 }
