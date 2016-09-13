@@ -30,7 +30,8 @@ DEFAULT_REQUIRED = [
 LISTING_FIELDS = [
     'locales.title',
     'geometry.geom',
-    'filename'
+    'filename',
+    'author'
 ]
 
 fields_image = {

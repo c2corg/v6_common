@@ -20,7 +20,8 @@ DEFAULT_LISTING = [
     'locales.summary',
     'geometry.geom',
     'elevation',
-    'quality'
+    'quality',
+    'waypoint_type'
 ]
 DEFAULT_ATTRIBUTES_SETTINGS = {
     'fields': DEFAULT_FIELDS,
