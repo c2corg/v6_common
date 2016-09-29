@@ -100,7 +100,9 @@ fields_waypoint = {
         'listing': [
             'locales.title',
             'locales.summary',
-            'geometry.geom'
+            'geometry.geom',
+            'quality',
+            'waypoint_type'
         ]
     },
     'gite': {
