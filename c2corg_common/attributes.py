@@ -626,3 +626,9 @@ article_types = [
     'collab',
     'personal'
 ]
+
+feed_change_types = [
+    'created',
+    'updated',
+    'added_photos'
+]
