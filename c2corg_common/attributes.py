@@ -619,8 +619,7 @@ article_categories = [
     'c2c_meetings',
     'tags',
     'site_info',
-    'association',
-    'draft'
+    'association'
 ]
 
 article_types = [
