@@ -608,3 +608,21 @@ custodianship_types = [
     'key_needed',
     'no_warden'
 ]
+
+article_categories = [
+    'mountain_environment',
+    'gear_and_technique',
+    'topoguide_supplements',
+    'soft_mobility',
+    'expeditions',
+    'stories',
+    'c2c_meetings',
+    'tags',
+    'site_info',
+    'association'
+]
+
+article_types = [
+    'collab',
+    'personal'
+]
