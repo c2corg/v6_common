@@ -5,6 +5,7 @@ DEFAULT_FIELDS = [
     'locales.lang',
     'activities',
     'categories',
+    'quality',
     'article_type'
 ]
 
@@ -15,8 +16,12 @@ DEFAULT_REQUIRED = [
 ]
 
 LISTING_FIELDS = [
+    'locales',
+    'locales.title',
+    'locales.summary',
     'categories',
     'activities',
+    'quality',
     'article_type'
 ]
 
