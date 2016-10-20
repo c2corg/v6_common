@@ -632,3 +632,15 @@ feed_change_types = [
     'updated',
     'added_photos'
 ]
+
+book_types = [
+    'topo',
+    'environment',
+    'historical',
+    'biography',
+    'photos-art',
+    'novel',
+    'technics',
+    'tourism',
+    'magazine'
+]
