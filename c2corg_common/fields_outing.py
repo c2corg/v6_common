@@ -28,7 +28,6 @@ DEFAULT_FIELDS = [
     'public_transport',
     'access_condition',
     'lift_status',
-    'duration',
     'condition_rating',
     'hut_status',
     'quality'
@@ -75,7 +74,6 @@ fields_outing = {
         'fields': DEFAULT_FIELDS + [
             'elevation_up_snow',
             'elevation_down_snow',
-            'duration_difficulties',
             'snow_quantity',
             'snow_quality',
             'glacier_rating',
@@ -89,7 +87,6 @@ fields_outing = {
         'fields': DEFAULT_FIELDS + [
             'elevation_up_snow',
             'elevation_down_snow',
-            'duration_difficulties',
             'snow_quantity',
             'snow_quality',
             'glacier_rating',
@@ -98,9 +95,7 @@ fields_outing = {
         'listing': DEFAULT_LISTING
     },
     'rock_climbing': {
-        'fields': DEFAULT_FIELDS + [
-            'duration_difficulties',
-        ],
+        'fields': DEFAULT_FIELDS,
         'required': DEFAULT_REQUIRED,
         'listing': DEFAULT_LISTING
     },
@@ -108,7 +103,6 @@ fields_outing = {
         'fields': DEFAULT_FIELDS + [
             'elevation_up_snow',
             'elevation_down_snow',
-            'duration_difficulties',
             'snow_quantity',
             'snow_quality',
             'avalanche_signs',
@@ -143,10 +137,7 @@ fields_outing = {
         'listing': DEFAULT_LISTING
     },
     'via_ferrata': {
-        'fields': DEFAULT_FIELDS + [
-            'duration_difficulties',
-            'glacier_rating',
-        ],
+        'fields': DEFAULT_FIELDS,
         'required': DEFAULT_REQUIRED,
         'listing': DEFAULT_LISTING
     },
