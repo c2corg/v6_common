@@ -1,3 +1,4 @@
+# coding: utf-8
 default_langs = ['fr', 'it', 'de', 'en', 'es', 'ca', 'eu']
 langs_priority = ['fr', 'en', 'it', 'de', 'es', 'ca', 'eu']
 
@@ -666,4 +667,86 @@ mailinglists = [
     'meteofrance-2b',
     'aran',
     'catalunya'
+]
+
+event_types = [
+    'avalanche',
+    'stone_fall',
+    'falling_ice',
+    'person_fall',
+    'crevasse_fall',
+    'roped_fall',
+    'physical_failure',
+    'lightning',
+    'other'
+]
+
+author_statuses = [
+    'primary_impacted',
+    'secondary_impacted',
+    'internal_witness',
+    'external_witness'
+]
+
+activity_rates = [
+    'activity_rate_150',
+    'activity_rate_50',
+    'activity_rate_30',
+    'activity_rate_20',
+    'activity_rate_10',
+    'activity_rate_5',
+    'activity_rate_1'
+]
+
+nb_outings = [
+    'nb_outings_4',
+    'nb_outings_9',
+    'nb_outings_14',
+    'nb_outings_15',
+]
+
+genders = [
+    'male',
+    'female'
+]
+
+previous_injuries = [
+    'no',
+    'previous_injuries_2',
+    'previous_injuries_3'
+]
+
+severities = [
+    'no',
+    '1 to 3 days',
+    '4 days to 1 month',
+    '1 to 3 months',
+    'more than 3 months',
+]
+
+autonomies = [
+    'non autonomous',
+    'autonomous',
+    'initiator',
+    'expert',
+]
+
+avalanche_levels = [
+    '1',
+    '2',
+    '3',
+    '4',
+    '5',
+    'avalanche_level_NA'
+]
+
+avalanche_slopes = [
+    '< 30°',
+    '30-32°',
+    '33-35°',
+    '36-38°',
+    '39-41°',
+    '42-44°',
+    '45-47°',
+    '> 47°'
 ]
