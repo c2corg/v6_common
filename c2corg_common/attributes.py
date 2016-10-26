@@ -104,11 +104,11 @@ rain_proof_types = [
 ]
 
 public_transportation_ratings = [
-    'good',      # service regulier
-    'seasonal',  # service saisonnier
-    'poor',      # service reduit
-    'near',      # service a proximite
-    'no'         # pas de service
+    'good service',      # service regulier
+    'seasonal service',  # service saisonnier
+    'poor service',      # service reduit
+    'nearby service',    # service a proximite
+    'no service'         # pas de service
 ]
 
 # Cotation deco/attero
@@ -550,7 +550,7 @@ avalanche_signs = [
 hut_status = [
     'open_guarded',
     'open_non_guarded',
-    'closed'
+    'closed_hut'
 ]
 
 image_categories = [
@@ -598,7 +598,7 @@ quality_types = [
     'empty',
     'draft',
     'medium',
-    'good',
+    'fine',
     'excellent'
 ]
 
