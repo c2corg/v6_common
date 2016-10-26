@@ -128,13 +128,6 @@ sortable_ski_ratings = {
     '5.6': 17
 }
 
-sortable_exposition_ratings = {
-    'E1': 0,
-    'E2': 1,
-    'E3': 2,
-    'E4': 3
-}
-
 sortable_labande_ski_ratings = {
     'S1': 0,
     'S2': 1,
