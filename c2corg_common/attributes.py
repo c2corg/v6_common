@@ -295,10 +295,10 @@ route_duration_types = [
 
 glacier_gear_types = [
     'no',
-    'glacier_safety_gear', # materiel de securite sur glacier
-    'crampons_spring',     # crampons en debut de saison
-    'crampons_req',        # crampons indispensable
-    'glacier_crampons'     # crampons + materiel de securite sur glacier
+    'glacier_safety_gear',  # materiel de securite sur glacier
+    'crampons_spring',      # crampons en debut de saison
+    'crampons_req',         # crampons indispensable
+    'glacier_crampons'      # crampons + materiel de securite sur glacier
 ]
 
 route_configuration_types = [
