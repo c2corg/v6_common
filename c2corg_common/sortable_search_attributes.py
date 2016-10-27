@@ -7,7 +7,7 @@ sortable_quality_types = {
     'empty': 0,
     'draft': 1,
     'medium': 2,
-    'good': 3,
+    'fine': 3,
     'excellent': 4
 }
 
