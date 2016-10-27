@@ -598,7 +598,7 @@ quality_types = [
     'empty',
     'draft',
     'medium',
-    'good',
+    'fine',
     'excellent'
 ]
 
