@@ -8,7 +8,7 @@ sortable_quality_types = {
     'draft': 1,
     'medium': 2,
     'fine': 3,
-    'excellent': 4
+    'great': 4
 }
 
 sortable_access_times = {

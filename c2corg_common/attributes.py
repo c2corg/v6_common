@@ -599,7 +599,7 @@ quality_types = [
     'draft',
     'medium',
     'fine',
-    'excellent'
+    'great'
 ]
 
 custodianship_types = [
