@@ -10,6 +10,7 @@ DEFAULT_FIELDS = [
     'isbn',
     'book_types',
     'publication_date',
+    'langs',
     'nb_pages'
 ]
 
@@ -22,11 +23,9 @@ DEFAULT_REQUIRED = [
 LISTING_FIELDS = [
     'locales',
     'locales.title',
-    'locales.description',
     'activities',
     'author',
     'quality',
-    'publication_date',
     'book_types'
 ]
 
