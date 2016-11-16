@@ -644,3 +644,26 @@ book_types = [
     'tourism',
     'magazine'
 ]
+
+mailinglists = [
+    'avalanche',
+    'lawinen',
+    'valanghe',
+    'avalanche.en',
+    'meteofrance-38',
+    'meteofrance-74',
+    'meteofrance-73',
+    'meteofrance-04',
+    'meteofrance-05',
+    'meteofrance-06',
+    'meteofrance-31',
+    'meteofrance-64',
+    'meteofrance-65',
+    'meteofrance-66',
+    'meteofrance-09',
+    'meteofrance-andorre',
+    'meteofrance-2a',
+    'meteofrance-2b',
+    'aran',
+    'catalunya'
+]
