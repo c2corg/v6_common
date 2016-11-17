@@ -514,7 +514,7 @@ frequentation_types = [
 
 access_conditions = [
     'cleared',
-    'snow',
+    'snowy',
     'closed_snow',
     'closed_cleared'
 ]
@@ -564,7 +564,7 @@ image_categories = [
     'people',
     'fauna',
     'flora',
-    'snow',
+    'nivology',
     'geology',
     'hut',
     'equipment',
@@ -599,7 +599,7 @@ quality_types = [
     'draft',
     'medium',
     'fine',
-    'excellent'
+    'great'
 ]
 
 custodianship_types = [
