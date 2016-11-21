@@ -1,3 +1,5 @@
+# coding: utf-8
+
 # enum mappers: To be able to search e.g. a route with a rating between
 # 'AD' and 'ED', certain enum values are converted to integers using the
 # mappers listed below, and stored as number in ElasticSearch. This allows
@@ -304,4 +306,32 @@ sortable_glacier_ratings = {
     'possible': 1,
     'difficult': 2,
     'impossible': 3
+}
+
+sortable_severities = {
+    'no': 0,
+    '1 to 3 days': 1,
+    '4 days to 1 month': 2,
+    '1 to 3 months': 3,
+    'more than 3 months': 4,
+}
+
+sortable_avalanche_levels = {
+    '1': 0,
+    '2': 1,
+    '3': 2,
+    '4': 3,
+    '5': 4,
+    'avalanche_level_NA': 5
+}
+
+sortable_avalanche_slopes = {
+    '< 30°': 0,
+    '30-32°': 1,
+    '33-35°': 2,
+    '36-38°': 3,
+    '39-41°': 4,
+    '42-44°': 5,
+    '45-47°': 6,
+    '> 47°': 7
 }
