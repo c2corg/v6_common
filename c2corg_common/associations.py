@@ -5,7 +5,6 @@ from c2corg_common.document_types import ROUTE_TYPE, OUTING_TYPE, \
 valid_associations = {
     # associations with outings
     (ROUTE_TYPE, OUTING_TYPE),
-    (WAYPOINT_TYPE, OUTING_TYPE),
     (USERPROFILE_TYPE, OUTING_TYPE),
 
     # associations with waypoints
