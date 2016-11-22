@@ -612,7 +612,8 @@ custodianship_types = [
 
 article_categories = [
     'mountain_environment',
-    'gear_and_technique',
+    'gear',
+    'technical',
     'topoguide_supplements',
     'soft_mobility',
     'expeditions',
