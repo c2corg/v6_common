@@ -309,29 +309,29 @@ sortable_glacier_ratings = {
 }
 
 sortable_severities = {
-    'no': 0,
-    '1 to 3 days': 1,
-    '4 days to 1 month': 2,
-    '1 to 3 months': 3,
-    'more than 3 months': 4,
+    'severity_no': 0,
+    '1d_to_3d': 1,
+    '4d_to_1m': 2,
+    '1m_to_3m': 3,
+    'more_than_3m': 4,
 }
 
 sortable_avalanche_levels = {
-    '1': 0,
-    '2': 1,
-    '3': 2,
-    '4': 3,
-    '5': 4,
-    'avalanche_level_NA': 5
+    'level_na': 0,
+    'level_1': 1,
+    'level_2': 2,
+    'level_3': 3,
+    'level_4': 4,
+    'level_5': 5
 }
 
 sortable_avalanche_slopes = {
-    '< 30°': 0,
-    '30-32°': 1,
-    '33-35°': 2,
-    '36-38°': 3,
-    '39-41°': 4,
-    '42-44°': 5,
-    '45-47°': 6,
-    '> 47°': 7
+    'slope_lt_30': 0,
+    'slope_30_32': 1,
+    'slope_33_35': 2,
+    'slope_36_38': 3,
+    'slope_39_41': 4,
+    'slope_42_44': 5,
+    'slope_45_47': 6,
+    'slope_gt_47': 7
 }
