@@ -717,36 +717,36 @@ previous_injuries = [
 ]
 
 severities = [
-    'no',
-    '1 to 3 days',
-    '4 days to 1 month',
-    '1 to 3 months',
-    'more than 3 months',
+    'severity_no',
+    '1d_to_3d',
+    '4d_to_1m',
+    '1m_to_3m',
+    'more_than_3m',
 ]
 
 autonomies = [
-    'non autonomous',
+    'non_autonomous',
     'autonomous',
     'initiator',
     'expert',
 ]
 
 avalanche_levels = [
-    '1',
-    '2',
-    '3',
-    '4',
-    '5',
-    'avalanche_level_NA'
+    'level_1',
+    'level_2',
+    'level_3',
+    'level_4',
+    'level_5',
+    'level_na'
 ]
 
 avalanche_slopes = [
-    '< 30°',
-    '30-32°',
-    '33-35°',
-    '36-38°',
-    '39-41°',
-    '42-44°',
-    '45-47°',
-    '> 47°'
+    'slope_lt_30',
+    'slope_30_32',
+    'slope_33_35',
+    'slope_36_38',
+    'slope_39_41',
+    'slope_42_44',
+    'slope_45_47',
+    'slope_gt_47'
 ]
