@@ -172,7 +172,6 @@ fields_route = {
     'hiking': {
         'fields': DEFAULT_FIELDS + [
             'route_length',
-            'difficulties_height',
             'hiking_rating',
             'hiking_mtb_exposition'
         ],
@@ -186,7 +185,6 @@ fields_route = {
         'fields': DEFAULT_FIELDS + [
             'locales.slope',
             'route_length',
-            'difficulties_height',
             'glacier_gear',
             'configuration',
             'snowshoe_rating'
@@ -199,7 +197,6 @@ fields_route = {
     'mountain_biking': {
         'fields': DEFAULT_FIELDS + [
             'route_length',
-            'difficulties_height',
             'hiking_mtb_exposition',
             'mtb_up_rating',
             'mtb_down_rating',
