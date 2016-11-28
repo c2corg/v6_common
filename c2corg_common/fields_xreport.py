@@ -58,7 +58,7 @@ DEFAULT_LISTING = [
     'quality'
 ]
 
-fields_report = {
+fields_xreport = {
     'fields': DEFAULT_FIELDS,
     'required': DEFAULT_REQUIRED,
     'listing': DEFAULT_LISTING
