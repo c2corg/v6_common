@@ -172,6 +172,7 @@ fields_route = {
     'hiking': {
         'fields': DEFAULT_FIELDS + [
             'route_length',
+            'glacier_gear',
             'hiking_rating',
             'hiking_mtb_exposition'
         ],
