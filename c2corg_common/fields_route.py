@@ -39,6 +39,7 @@ DEFAULT_LISTING = [
     'height_diff_difficulties',
     'activities',
     'quality',
+    'main_waypoint_id',
     'orientations'
 ]
 DEFAULT_ATTRIBUTES_SETTINGS = {
