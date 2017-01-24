@@ -95,6 +95,21 @@ sortable_equipment_ratings = {
     'P4+': 7
 }
 
+sortable_best_periods = {
+  'jan': 0,
+  'feb': 1,
+  'mar': 2,
+  'apr': 3,
+  'may': 4,
+  'jun': 5,
+  'jul': 6,
+  'aug': 7,
+  'sep': 8,
+  'oct': 9,
+  'nov': 10,
+  'dec': 11,
+}
+
 sortable_route_duration_types = {
     '1': 0,
     '2': 1,
