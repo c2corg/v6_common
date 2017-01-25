@@ -137,6 +137,7 @@ fields_waypoint = {
     },
     'hut': {
         'fields': DEFAULT_FIELDS + [
+            'locales.access',
             'locales.access_period',
             'capacity',
             'capacity_staffed',
