@@ -48,6 +48,7 @@ DEFAULT_LISTING = [
     'date_end',
     'elevation_max',
     'height_diff_up',
+    'condition_rating',
     'quality'
 ]
 DEFAULT_ATTRIBUTES_SETTINGS = {
