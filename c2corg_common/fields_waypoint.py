@@ -247,5 +247,24 @@ fields_waypoint = {
             'url'
         ],
         'listing': DEFAULT_LISTING
+    },
+    'slackline_spot': {
+        'fields': DEFAULT_FIELDS + [
+            'slackline_types',
+            'slackline_length_min',
+            'slackline_length_max',
+            'locales.access',
+            'access_time',
+            'best_periods',
+            'orientations',
+        ],
+        'required': DEFAULT_REQUIRED + [
+            'slackline_types',
+        ],
+        'listing': DEFAULT_LISTING + [
+            'slackline_types',
+            'slackline_length_min',
+            'slackline_length_max',
+        ]
     }
 }

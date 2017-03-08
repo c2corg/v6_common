@@ -12,7 +12,8 @@ activities = [
     'snowshoeing',
     'paragliding',
     'mountain_biking',
-    'via_ferrata'
+    'via_ferrata',
+    'slacklining'
 ]
 
 waypoint_types = [
@@ -46,9 +47,11 @@ waypoint_types = [
 
     'weather_station',      # station meteo
     'webcam',               # webcam
-
     'virtual',              # sur-WP virtuel
-    'misc'                  # divers
+
+    'slackline_spot',
+
+    'misc',                 # divers
 ]
 
 climbing_outdoor_types = [
@@ -747,4 +750,10 @@ avalanche_slopes = [
     'slope_35_40',
     'slope_40_45',
     'slope_gt_45'
+]
+
+slackline_types = [
+    'slackline',
+    'highline',
+    'waterline'
 ]

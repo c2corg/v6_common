@@ -228,5 +228,45 @@ fields_route = {
             'engagement_rating',
             'equipment_rating'
         ]
+    },
+    'slacklining': {
+        'fields': [
+            'locales.title',
+            'locales.summary',
+            'locales.description',
+            'locales.gear',
+            'locales.remarks',
+            'locales.external_resources',
+            'locales.route_history',
+            'locales.title_prefix',
+            'geometry.geom',
+            'geometry.geom_detail',
+            'activities',
+            'lift_access',
+            'orientations',
+            'main_waypoint_id',
+            'quality',
+            'slackline_type',
+            'slackline_height',
+            'route_length',
+            'locales.slackline_anchor1',
+            'locales.slackline_anchor2',
+        ],
+        'required': DEFAULT_REQUIRED + [
+            'slackline_type',
+            'route_length'
+        ],
+        'listing': [
+            'locales.title',
+            'locales.title_prefix',
+            'locales.summary',
+            'geometry.geom',
+            'route_length',
+            'slackline_height',
+            'activities',
+            'quality',
+            'orientations',
+            'slackline_type',
+        ]
     }
 }
