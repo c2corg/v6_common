@@ -327,11 +327,8 @@ sortable_avalanche_levels = {
 
 sortable_avalanche_slopes = {
     'slope_lt_30': 0,
-    'slope_30_32': 1,
-    'slope_33_35': 2,
-    'slope_36_38': 3,
-    'slope_39_41': 4,
-    'slope_42_44': 5,
-    'slope_45_47': 6,
-    'slope_gt_47': 7
+    'slope_30_35': 1,
+    'slope_35_40': 2,
+    'slope_40_45': 3,
+    'slope_gt_45': 4
 }

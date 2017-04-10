@@ -743,11 +743,8 @@ avalanche_levels = [
 
 avalanche_slopes = [
     'slope_lt_30',
-    'slope_30_32',
-    'slope_33_35',
-    'slope_36_38',
-    'slope_39_41',
-    'slope_42_44',
-    'slope_45_47',
-    'slope_gt_47'
+    'slope_30_35',
+    'slope_35_40',
+    'slope_40_45',
+    'slope_gt_45'
 ]
