@@ -3,6 +3,7 @@ DEFAULT_FIELDS = [
     'locales.title',
     'locales.summary',
     'locales.description',
+    'locales.topic_id',
     'geometry.geom',
     'elevation',
     'maps_info',
