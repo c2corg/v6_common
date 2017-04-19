@@ -163,7 +163,6 @@ fields_route = {
         'listing': DEFAULT_LISTING + [
             'ice_rating',
             'global_rating',
-            'engagement_rating',
             'risk_rating',
             'equipment_rating',
             'mixed_rating'
