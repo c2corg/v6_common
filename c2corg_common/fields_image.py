@@ -10,6 +10,7 @@ DEFAULT_FIELDS = [
     'elevation',
     'height',
     'width',
+    'creator',
     'file_size',
     'filename',
     'camera_name',
