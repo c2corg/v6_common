@@ -7,6 +7,7 @@ DEFAULT_FIELDS = [
     'categories',
     'image_type',
     'author',
+    'has_svg',
     'elevation',
     'height',
     'width',
