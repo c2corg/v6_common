@@ -147,5 +147,10 @@ fields_outing = {
         ],
         'required': DEFAULT_REQUIRED,
         'listing': DEFAULT_LISTING
-    }
+    },
+    'slacklining': {
+        'fields': DEFAULT_FIELDS,
+        'required': DEFAULT_REQUIRED,
+        'listing': DEFAULT_LISTING
+    },
 }
