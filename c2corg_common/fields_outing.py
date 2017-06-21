@@ -30,6 +30,7 @@ DEFAULT_FIELDS = [
     'lift_status',
     'condition_rating',
     'hut_status',
+    'disable_comments',
     'quality'
 ]
 DEFAULT_REQUIRED = [

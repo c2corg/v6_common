@@ -34,6 +34,7 @@ DEFAULT_FIELDS = [
     'gender',
     'previous_injuries',
     'autonomy',
+    'disable_comments',
     'quality'
 ]
 DEFAULT_REQUIRED = [
