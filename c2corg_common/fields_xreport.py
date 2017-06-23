@@ -35,6 +35,7 @@ DEFAULT_FIELDS = [
     'previous_injuries',
     'autonomy',
     'disable_comments',
+    'anonymous',
     'quality'
 ]
 DEFAULT_REQUIRED = [
