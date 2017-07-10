@@ -70,8 +70,7 @@ public_transportation_types = [
     'train',
     'bus',
     'service_on_demand',
-    'boat',
-    'cable_car'
+    'boat'
 ]
 
 product_types = [
