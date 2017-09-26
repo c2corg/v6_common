@@ -44,6 +44,7 @@ DEFAULT_LISTING = [
     'locales.title',
     'locales.summary',
     'geometry.geom',
+    'geometry.has_geom_detail',
     'activities',
     'date_start',
     'date_end',
