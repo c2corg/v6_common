@@ -69,9 +69,14 @@ fields_outing = {
             'glacier_rating',
             'avalanche_signs',
             'locales.avalanches',
+            'ski_rating',
+            'labande_global_rating'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'ski_rating',
+            'labande_global_rating'
+        ]
     },
     'snow_ice_mixed': {
         'fields': DEFAULT_FIELDS + [
@@ -82,9 +87,16 @@ fields_outing = {
             'glacier_rating',
             'avalanche_signs',
             'locales.avalanches',
+            'height_diff_difficulties',
+            'global_rating',
+            'engagement_rating'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'height_diff_difficulties',
+            'global_rating',
+            'engagement_rating'
+        ]
     },
     'mountain_climbing': {
         'fields': DEFAULT_FIELDS + [
@@ -93,14 +105,29 @@ fields_outing = {
             'snow_quantity',
             'snow_quality',
             'glacier_rating',
+            'global_rating',
+            'engagement_rating',
+            'height_diff_difficulties'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'global_rating',
+            'engagement_rating',
+            'height_diff_difficulties'
+        ]
     },
     'rock_climbing': {
-        'fields': DEFAULT_FIELDS,
+        'fields': DEFAULT_FIELDS + [
+            'global_rating',
+            'equipment_rating',
+            'rock_free_rating'
+        ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'global_rating',
+            'equipment_rating',
+            'rock_free_rating'
+        ]
     },
     'ice_climbing': {
         'fields': DEFAULT_FIELDS + [
@@ -110,15 +137,21 @@ fields_outing = {
             'snow_quality',
             'avalanche_signs',
             'locales.avalanches',
+            'ice_rating'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'ice_rating'
+        ]
     },
     'hiking': {
         'fields': DEFAULT_FIELDS + [
+            'hiking_rating'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'hiking_rating'
+        ]
     },
     'snowshoeing': {
         'fields': DEFAULT_FIELDS + [
@@ -129,20 +162,32 @@ fields_outing = {
             'glacier_rating',
             'avalanche_signs',
             'locales.avalanches',
+            'snowshoe_rating'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'snowshoe_rating'
+        ]
     },
     'mountain_biking': {
         'fields': DEFAULT_FIELDS + [
+            'mtb_up_rating',
+            'mtb_down_rating'
         ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'mtb_up_rating',
+            'mtb_down_rating'
+        ]
     },
     'via_ferrata': {
-        'fields': DEFAULT_FIELDS,
+        'fields': DEFAULT_FIELDS + [
+            'via_ferrata_rating'
+        ],
         'required': DEFAULT_REQUIRED,
-        'listing': DEFAULT_LISTING
+        'listing': DEFAULT_LISTING + [
+            'via_ferrata_rating'
+        ]
     },
     'paragliding': {
         'fields': DEFAULT_FIELDS + [
