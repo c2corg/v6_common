@@ -31,7 +31,7 @@ def get_or_create(cache, key, creator):
         return value
     except CreatorException as creator_exception:
         raise creator_exception.exc
-    except:
+    except:  # noqa
         log.error('Getting value from cache failed', exc_info=True)
         cache_status.request_failure()
         return creator()
@@ -53,7 +53,7 @@ def get_or_create_multi(cache, keys, creator, should_cache_fn=None):
         return values
     except CreatorException as creator_exception:
         raise creator_exception.exc
-    except:
+    except:  # noqa
         log.error('Getting values from cache failed', exc_info=True)
         cache_status.request_failure()
         return creator(*keys)
@@ -71,7 +71,7 @@ def get(cache, key):
         value = cache.get(key, ignore_expiration=True)
         cache_status.request_success()
         return value
-    except:
+    except:  # noqa
         log.error('Getting value from cache failed', exc_info=True)
         cache_status.request_failure()
         return NO_VALUE
@@ -88,7 +88,7 @@ def set(cache, key, value):
     try:
         cache.set(key, value)
         cache_status.request_success()
-    except:
+    except:  # noqa
         log.error('Setting value in cache failed', exc_info=True)
         cache_status.request_failure()
 
