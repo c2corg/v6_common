@@ -708,20 +708,9 @@ author_statuses = [
 ]
 
 activity_rates = [
-    'activity_rate_150',
-    'activity_rate_50',
-    'activity_rate_30',
-    'activity_rate_20',
-    'activity_rate_10',
-    'activity_rate_5',
-    'activity_rate_1'
-]
-
-nb_outings = [
-    'nb_outings_4',
-    'nb_outings_9',
-    'nb_outings_14',
-    'nb_outings_15',
+    'activity_rate_y5',
+    'activity_rate_m2',
+    'activity_rate_w1'
 ]
 
 genders = [
@@ -746,8 +735,19 @@ severities = [
 autonomies = [
     'non_autonomous',
     'autonomous',
-    'initiator',
     'expert',
+]
+
+supervision = [
+    'no_supervision',
+    'federal_supervision',
+    'professional_supervision'
+]
+
+qualification = [
+    'federal_supervisor',
+    'federal_trainer',
+    'professional_diploma'
 ]
 
 avalanche_levels = [
