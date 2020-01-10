@@ -34,7 +34,7 @@ DEFAULT_FIELDS = [
     'previous_injuries',
     'autonomy',
     'supervision',
-    'qualification'
+    'qualification',
     'disable_comments',
     'anonymous',
     'quality'
