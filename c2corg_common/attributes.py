@@ -535,6 +535,22 @@ condition_ratings = [
     'awful'
 ]
 
+snow_quality_ratings = [
+    'excellent',
+    'good',
+    'average',
+    'poor',
+    'awful'
+]
+
+snow_quantity_ratings = [
+    'excellent',
+    'good',
+    'average',
+    'poor',
+    'awful'
+]
+
 glacier_ratings = [
     'easy',
     'possible',
