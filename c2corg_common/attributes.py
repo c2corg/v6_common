@@ -688,15 +688,28 @@ mailinglists = [
     'catalunya'
 ]
 
+event_activities = [
+    'sport_climbing',
+    'multipitch_climbing',
+    'alpine_climbing',
+    'snow_ice_mixed',
+    'ice_climbing',
+    'skitouring',
+    'other'
+]
+
 event_types = [
     'avalanche',
-    'stone_fall',
-    'falling_ice',
+    'stone_ice_fall',
+    'ice_cornice_collapse',
     'person_fall',
     'crevasse_fall',
-    'roped_fall',
     'physical_failure',
-    'lightning',
+    'injury_without_fall',
+    'blocked_person',
+    'weather_event',
+    'safety_operation',
+    'critical_situation',
     'other'
 ]
 
@@ -708,20 +721,9 @@ author_statuses = [
 ]
 
 activity_rates = [
-    'activity_rate_150',
-    'activity_rate_50',
-    'activity_rate_30',
-    'activity_rate_20',
-    'activity_rate_10',
-    'activity_rate_5',
-    'activity_rate_1'
-]
-
-nb_outings = [
-    'nb_outings_4',
-    'nb_outings_9',
-    'nb_outings_14',
-    'nb_outings_15',
+    'activity_rate_y5',
+    'activity_rate_m2',
+    'activity_rate_w1'
 ]
 
 genders = [
@@ -746,8 +748,19 @@ severities = [
 autonomies = [
     'non_autonomous',
     'autonomous',
-    'initiator',
     'expert',
+]
+
+supervision = [
+    'no_supervision',
+    'federal_supervision',
+    'professional_supervision'
+]
+
+qualification = [
+    'federal_supervisor',
+    'federal_trainer',
+    'professional_diploma'
 ]
 
 avalanche_levels = [
