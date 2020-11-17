@@ -301,6 +301,22 @@ sortable_condition_ratings = {
     'awful': 4
 }
 
+sortable_snow_quality_ratings = {
+    'excellent': 0,
+    'good': 1,
+    'average': 2,
+    'poor': 3,
+    'awful': 4
+}
+
+sortable_snow_quantity_ratings = {
+    'excellent': 0,
+    'good': 1,
+    'average': 2,
+    'poor': 3,
+    'awful': 4
+}
+
 sortable_glacier_ratings = {
     'easy': 0,
     'possible': 1,
