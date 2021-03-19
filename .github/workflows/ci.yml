@@ -1,0 +1,33 @@
+name: Continuous integration
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Cache pip
+        uses: actions/cache@v2.1.4
+        with:
+          path: ~/.cache/pip # This path is specific to Ubuntu
+          # Look to see if there is a cache hit for the corresponding requirements file
+          key: ${{ runner.os }}-pip-${{ hashFiles('dev-requirements.txt') }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+            ${{ runner.os }}-
+      - name: Install python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r dev-requirements.txt -r requirements.txt
+      - name: Lint
+        run: flake8 c2corg_common
+      - name: Test
+        run: nosetests
