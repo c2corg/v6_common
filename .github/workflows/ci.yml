@@ -30,4 +30,4 @@ jobs:
       - name: Lint
         run: flake8 c2corg_common
       - name: Test
-        run: nose
+        run: nosetests
